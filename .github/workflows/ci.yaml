@@ -1,4 +1,5 @@
-# CI for Product Catalog Service
+# CI for Product Catalog Service 
+# This pipeline will Update tag in kubernetes deployment manifest
 
 name: product-catalog-ci
 
