@@ -1,4 +1,5 @@
-# CI for Product Catalog Service
+# CI for Product Catalog Service 
+# This pipeline will Update tag in kubernetes deployment manifest
 
 name: product-catalog-ci
 
@@ -97,8 +98,5 @@ jobs:
             git config --global user.email "abhishek@gmail.com"
             git config --global user.name "Abhishek Veeramalla"
             git add kubernetes/productcatalog/deploy.yaml
-            git commit -m "[CI]: Update product catalog image tag"
+            git commit -m "[CI]: Updated product catalog image tag"
             git push origin HEAD:main -f
-
-        
-    
